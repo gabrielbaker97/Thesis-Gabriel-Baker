@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import pandas_datareader as pdr
+from linearmodels.panel import PooledOLS
 import os
 import yfinance as yf
 import sqlite3
